@@ -98,3 +98,77 @@ VALUES
 ('Sundari', 47, 'Female', 'TOEFL', '2024-12-30 10:00:00', '2024-12-30 13:00:00', 'Chennai', 'Scribe should be fluent in English', 'Requires help with writing and listening sections', 'Pending'),
 ('Sheela', 40, 'Male', 'CSIR UGC NET', '2024-12-11 14:30:00', '2024-12-11 17:30:00', 'Hyderabad', 'Prefer scribe who is detailed in narration', 'Pending')
 ;
+
+INSERT INTO SESSIONS 
+(session_title, session_purpose, venue, session_start, session_end, target_audience, entry_fee, organizer, sponsors, special_guests, additional_info, status) 
+VALUES
+-- Free Eye Check-Up Camp
+('Free Eye Check-Up Camp', 
+ 'To provide free eye check-ups and consultations to the community.', 
+ 'Placement and Training Hall, Admin Block', 
+ '2024-12-14 09:30:00', 
+ '2024-12-14 15:30:00', 
+ 'College Students and Staff, Public', 
+ 0.00, 
+ 'YRC Team', 
+ 'Dr Agarwals Eye Hospital, Chromepet', 
+ NULL, 
+ 'Bring previous medical records if available.', 
+ 'active'),
+
+-- Blood Donation Drive
+('Blood Donation Drive', 
+ 'Encourage blood donation to save lives during emergencies.', 
+ 'Hanger II', 
+ '2024-10-05 10:00:00', 
+ '2024-10-10 16:00:00', 
+ 'College Students and Staff, Public', 
+ 0.00, 
+ 'YRC Team', 
+NULL, 
+ NULL, 
+ 'Refreshments will be provided to all donors.', 
+ 'active'),
+
+-- Orphanage Visit and Donation Drive
+('Orphanage Visit and Donation Drive', 
+ 'To interact with children at the orphanage and deliver essential items.', 
+ 'Sunshine Orphanage, Chromepet', 
+ '2024-12-20 10:00:00', 
+ '2024-12-20 14:00:00', 
+ 'Volunteers and Donors', 
+ 0.00, 
+ 'YRC and NSS Teams', 
+ 'Government Charitable Trust, Chromepet', 
+ NULL, 
+ 'Participants are requested to bring items for donation (clothes, books, etc.).', 
+ 'active'),
+
+ 
+-- Interactive Session with DSP
+('Interactive Session with DSP', 
+ 'Discussion on safety measures and community policing initiatives.', 
+ 'Rajam Hall', 
+ '2024-11-30 10:00:00', 
+ '2024-11-30 12:00:00', 
+ 'First Year Students, Red taggers 2024-28', 
+ 0.00, 
+ 'YRC Team', 
+ NULL, 
+ 'Deputy Superintendent of Police Mr. Rajesh Kumar', 
+ 'Open Q&A session at the end.', 
+ 'active'),
+
+-- Career Guidance Workshop
+('Career Guidance Workshop', 
+ 'To guide students in making informed career decisions, and provide more insights into civil services and scope.', 
+ 'Rajam Hall', 
+ '2025-12-25 10:00:00', 
+ '2025-12-25 12:00:00', 
+ 'Interested MIT Students, open to all years', 
+ 0.00, 
+ 'YRC Team and CUIC', 
+ 'Mr. Ramesh Prabha, AU Alumnus', 
+ 'Career Guidance Expert, Mr. Ramesh Prabha', 
+ 'Participants will receive free career counseling cheatsheets.', 
+ 'active');
