@@ -9,7 +9,7 @@
 - Insert sample records into the tables.
 - The above two steps can be achieved by running the setup.sql file in this GitHub repository.
 ## Configure the Project: 
-- Open the project in Eclipse IDE. 
+- Open the project folder, which has been compressed in the zip file in this GitHub repository, in Eclipse IDE. 
 - Add the necessary JAR files (for SQL, JSTL, etc.) to the project build path.
 ## Run the Project: 
 - Right-click the project in Eclipse and select Run on Server.
